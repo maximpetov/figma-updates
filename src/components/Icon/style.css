@@ -1,0 +1,24 @@
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.icon .overlap-group {
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: 16px;
+  left: 4px;
+  position: relative;
+  top: 4px;
+  width: 16px;
+}
+
+.icon .ellipse {
+  background-color: var(--blue);
+  border-radius: 4px;
+  height: 8px;
+  left: 4px;
+  position: relative;
+  top: 4px;
+  width: 8px;
+}

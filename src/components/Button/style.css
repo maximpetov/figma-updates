@@ -1,0 +1,39 @@
+.button {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  overflow: hidden;
+  padding: 0px 16px 0px 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.button .class {
+  background-color: var(--red) !important;
+}
+
+.button .icon-instance {
+  min-width: 24px !important;
+  position: relative !important;
+  width: unset !important;
+}
+
+.button .hello {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.button.dangerous {
+  background-color: var(--red);
+}
+
+.button.default {
+  background-color: var(--blue);
+}
